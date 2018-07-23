@@ -1,4 +1,4 @@
-# anonmd
+# amd-script
 
 Simple AMD `require` and `define` implementation designed to load from `<script>` tags that already exist on the page.
 
@@ -9,7 +9,7 @@ Rollup's [`experimentalCodeSplitting`](https://rollupjs.org/guide/en#experimenta
 ## Example
 
 ```html
-<script src="anonmd.js"></script>
+<script src="amd-script.js"></script>
 <script src="./common.js"></script>
 <script src="./app.js"></script>
 <script>

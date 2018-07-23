@@ -1,6 +1,6 @@
 "use strict";
 
-describe("anonmd", () => {
+describe("amd-script", () => {
     it("Should load a single anonymous module", async () => {
         await page.goto(require.resolve("./specimens/simple.html"));
 

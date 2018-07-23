@@ -1,10 +1,10 @@
 {
-  "name": "anonmd",
+  "name": "amd-script",
   "version": "1.0.0",
   "description": "Load anonymous AMD modules, reasonably",
-  "main": "anonmd.js",
+  "main": "amd-script.js",
   "scripts": {
-    "compress": "terser anonmd.js --compress --output anonmd.min.js",
+    "compress": "terser amd-script.js --compress --output amd-script.min.js",
     "lint": "eslint .",
     "prerelease": "npm run test && npm run compress",
     "release": "npm version -m \"v%s\"",
@@ -18,7 +18,7 @@
   ],
   "repository": {
       "type": "git",
-      "url": "git://github.com/tivac/anonmd.git"
+      "url": "git://github.com/tivac/amd-script.git"
   },
   "author": "Pat Cavit <npm@patcavit.com>",
   "license": "MIT",

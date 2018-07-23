@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`anonmd Should load a single anonymous module 1`] = `
+exports[`amd-script Should load a single anonymous module 1`] = `
 
 <div>
   ./simple.js
@@ -8,7 +8,7 @@ exports[`anonmd Should load a single anonymous module 1`] = `
 
 `;
 
-exports[`anonmd Should support module dependencies 1`] = `
+exports[`amd-script Should support module dependencies 1`] = `
 
 <div>
   ./dependencies-b.js
