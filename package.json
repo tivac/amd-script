@@ -4,6 +4,10 @@
   "description": "Load anonymous AMD modules, reasonably",
   "main": "anonmd.js",
   "scripts": {
+    "lint": "eslint .",
+    "prerelease": "npm run test",
+    "release": "npm version -m \"v%s\"",
+    "postrelease": "npm publish",
     "test": "jest"
   },
   "keywords": [
