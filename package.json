@@ -17,8 +17,8 @@
     "loader"
   ],
   "repository": {
-      "type": "git",
-      "url": "git://github.com/tivac/amd-script.git"
+    "type": "git",
+    "url": "git://github.com/tivac/amd-script.git"
   },
   "author": "Pat Cavit <npm@patcavit.com>",
   "license": "MIT",
