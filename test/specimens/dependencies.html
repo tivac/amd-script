@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dependencies Test</title>
+    </head>
+    <body>
+        <div id="output"></div>
+        
+        <script src="../../index.js"></script>
+        <script src="./dependencies-b.js"></script>
+        <script src="./dependencies-c.js"></script>
+        <script src="./dependencies-a.js"></script>
+        <script>
+            require("./dependencies-a.js");
+        </script>
+    </body>
+</html>
