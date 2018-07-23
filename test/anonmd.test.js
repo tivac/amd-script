@@ -12,4 +12,10 @@ describe("amd-script", () => {
 
         await expect(page.$eval("#output", (el) => el.innerHTML)).resolves.toMatchSnapshot();
     });
+    
+    it("Should support special 'exports' dependency", async () => {
+        await page.goto(require.resolve("./specimens/exports-dep.html"));
+
+        await expect(page.$eval("#output", (el) => el.innerHTML)).resolves.toMatchSnapshot();
+    });
 });

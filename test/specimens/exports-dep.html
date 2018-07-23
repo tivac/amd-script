@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<div id="output"></div>
+
+<script src="../../amd-script.js"></script>
+<script src="./exports-dep.js"></script>
+<script>
+    const exports = require("./exports-dep.js");
+
+    const div = document.createElement("div");
+
+    div.innerText = JSON.stringify(exports);
+
+    document.querySelector("#output").appendChild(div);
+</script>

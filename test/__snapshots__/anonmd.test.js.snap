@@ -21,3 +21,11 @@ exports[`amd-script Should support module dependencies 1`] = `
 </div>
 
 `;
+
+exports[`amd-script Should support special 'exports' dependency 1`] = `
+
+<div>
+  {"fooga":"booga","wooga":true}
+</div>
+
+`;

@@ -42,11 +42,27 @@ var define, require;
             exports : {},
         };
 
-        module.exports = functions[id](
-            ...functions[id].dependencies.map((dep) =>
-                require(dep)
-            )
+        const result = functions[id](
+            ...functions[id].dependencies.map((dep) => {
+                if(dep === "module") {
+                    return module;
+                }
+
+                if(dep === "require") {
+                    return require;
+                }
+
+                if(dep === "exports") {
+                    return module.exports;
+                }
+
+                return require(dep);
+            })
         );
+
+        if(result) {
+            module.exports = result;
+        }
 
         instances[id] = module;
 
