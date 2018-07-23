@@ -6,7 +6,7 @@
   "scripts": {
     "compress": "terser anonmd.js --compress --output anonmd.min.js",
     "lint": "eslint .",
-    "prerelease": "npm run test",
+    "prerelease": "npm run test && npm run compress",
     "release": "npm version -m \"v%s\"",
     "postrelease": "npm publish",
     "test": "jest"
