@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`anonmd Should load a single anonymous module 1`] = `
+"
+        <script src=\\"../../index.js\\"></script>
+        <script src=\\"./simple.js\\"></script>
+        <script>
+            require(\\"./simple.js\\");
+        </script><div>./simple.js</div>
+    
+
+"
+`;

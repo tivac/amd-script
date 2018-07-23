@@ -4,7 +4,7 @@
   "description": "Load anonymouse AMD modules, reasonably",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Pat Cavit <npm@patcavit.com>",
