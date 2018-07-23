@@ -19,7 +19,7 @@ var define, require;
         }
         
         if(!id) {
-            id = document.currentScript.getAttribute("href");
+            id = document.currentScript.getAttribute("src");
         }
 
         functions[id] = typeof fn === "function" ? fn : () => fn;
