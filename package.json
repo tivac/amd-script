@@ -1,12 +1,20 @@
 {
   "name": "anonmd",
   "version": "1.0.0",
-  "description": "Load anonymouse AMD modules, reasonably",
-  "main": "index.js",
+  "description": "Load anonymous AMD modules, reasonably",
+  "main": "anonmd.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "amd",
+    "script",
+    "loader"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/tivac/anonmd.git"
+  },
   "author": "Pat Cavit <npm@patcavit.com>",
   "license": "MIT",
   "devDependencies": {
