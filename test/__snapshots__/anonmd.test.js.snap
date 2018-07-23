@@ -1,13 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`anonmd Should load a single anonymous module 1`] = `
-"
-        <script src=\\"../../index.js\\"></script>
-        <script src=\\"./simple.js\\"></script>
-        <script>
-            require(\\"./simple.js\\");
-        </script><div>./simple.js</div>
-    
 
-"
+<div>
+  ./simple.js
+</div>
+
+`;
+
+exports[`anonmd Should support module dependencies 1`] = `
+
+<div>
+  ./dependencies-b.js
+</div>
+<div>
+  ./dependencies-c.js
+</div>
+<div>
+  ./dependencies-a.js
+</div>
+
 `;

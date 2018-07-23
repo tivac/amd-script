@@ -1,6 +1,7 @@
-define(function () {
+define(() => {
     const div = document.createElement("div");
+    
     div.innerText = "./simple.js";
     
-    document.body.appendChild(div);
+    document.querySelector("#output").appendChild(div);
 });
