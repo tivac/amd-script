@@ -1,0 +1,20 @@
+{
+  "name": "anonmd",
+  "version": "1.0.0",
+  "description": "Load anonymouse AMD modules, reasonably",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pat Cavit <npm@patcavit.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tivac/eslint-config": "^2.2.1",
+    "eslint": "^5.2.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "jest": "^23.4.1",
+    "jest-puppeteer": "^3.2.1",
+    "puppeteer": "^1.6.0"
+  }
+}
